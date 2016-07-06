@@ -1,0 +1,129 @@
+/**:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: lightgrey;
+}
+
+.row1 {
+  /*background: darkgrey;*/
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 40vh;
+}
+
+.bigDiv {
+  width: 60vw;
+  height: 40vh;
+  background: red;
+  float: left;
+  margin-left: 2.5vw;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+}
+
+.smallDiv1 {
+  width: 30vw;
+  height: 20vh;
+  background: seagreen;
+  float: right;
+  margin-right: 2.5vw;
+  margin-top: 2.5vw;
+}
+
+.smallDiv2 {
+  width: 30vw;
+  height: 20vh;
+  background: green;
+  float: right;
+  margin-right: 2.5vw;
+}
+
+/*Row 2*/
+
+.row2 {
+  /*background: pink;*/
+  margin: 0;
+  padding: 0;
+  width: 90vw;
+  height: 55vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+/*Column 1*/
+
+.column1 {
+  width: 40vw;
+  height: 55vh;
+  float: left;
+
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+
+  margin-right:
+}
+
+.bottomTopRight {
+  width: 40vw;
+  height: 27.5vh;
+  background: yellow;
+}
+
+.bottomBottomLeft {
+  width: 20vw;
+  height: 27.5vh;
+  background: cyan;
+  float: left;
+}
+
+.bottomBottomRight {
+  width: 20vw;
+  height: 27.5vh;
+  background: brown;
+  float: right;
+}
+
+/*Column 2*/
+
+.column2 {
+  width: 50vw;
+  height: 55vh;
+  float: right;
+
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+
+  
+}
+
+.bottomTopLeft {
+  width: 50vw;
+  height: 27.5vh;
+  background: skyblue;
+}
+
+.middleBottom {
+  width: 50vw;
+  height: 13.75vh;
+  background: violet;
+}
+
+.middleBottomBottom {
+  width: 50vw;
+  height: 13.75vh;
+  background: tomato;
+}
+
+/*ClearFix*/
+
+.clearFix {
+  content: " ";
+  display: block;
+  clear: both;
+}
